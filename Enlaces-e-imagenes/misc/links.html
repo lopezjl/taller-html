@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!--La siguiente línea es para configuar la codificación en lenguaje español-->    
+<meta charset="UTF-8">
+    <head>
+        <title>&copy; enlaces | apli web</title>
+        <link rel="icon" href="E:\USER\Documents\MEGA\DESARROLLO DE APLICACIONES WEB\Enlaces-e-imagenes\imagenes\street.jpg">
+    </head>
+    <body>
+        <p>
+            En esta página web damos un <em>ejemplo</em> de la <strong>utilización</strong>
+            de enlaces <em>(links)</em> y de el tag <em>embed</em> insertando una imagen,
+            un video de YouTube y un archivo html.
+        </p>
+        <embed type="image/jpg" src="https://i.pinimg.com/564x/e5/9c/d2/e59cd2d089706576da1ca33714f7f972.jpg" width="300" height="200"><hr/>
+        <embed type="video/webm" src="https://www.youtube.com/embed/bwvIy1O2M1o" width="700" height="300"><br/>
+        <embed type="text/html" src="imagenes.html" width="1000" height="700"><hr>/
+
+        <h1>A continuación se prueba la etiqueta <em>video</em> de <strong>html5</strong></h1>
+        <video width="720" height="360" controls>
+            <source type="video/mp4" src="E:\USER\Documents\MEGA\DESARROLLO DE APLICACIONES WEB\Enlaces-e-imagenes\videos\y2mate.com - Ahorita vemos que pedo que pedal  que Pedro pinche Pablo_1080p.mp4">
+        </video>
+
+        <h2>A continuación se prueba la etiqueta <em>svg</em> de <strong>html5</strong> dibujando un círculo</h2>
+        <svg width="360" height="120">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+        </svg> <hr/>
+        <h1>Prueba de elemento datalist</h1>
+
+        <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+        <input type="submit">
+        </form>       
+    </body>
+</html>
